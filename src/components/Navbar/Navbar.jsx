@@ -26,7 +26,7 @@ const Navbar = () => {
   return (
     <div className='navbar'>
         <Link to={ "/" } >
-          <h1>CryptoList</h1>
+          <h1>CryptoView</h1>
         </Link>
         <ul>
           <Link to={ "/" } >
