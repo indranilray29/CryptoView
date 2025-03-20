@@ -1,0 +1,23 @@
+/* Loading animation css */
+
+.spinner {
+    display: grid;
+    place-self: center;
+    min-height: 80vh;
+}
+
+.spin {
+    width: 65px;
+    height: 65px;
+    place-self: center;
+    border: 5px solid white;
+    border-top-color: rgba(0, 0, 255, 0.7);
+    border-radius: 50%;
+    animation: rotate 3s ease-out infinite;
+} 
+
+@keyframes rotate {
+    100%{
+        transform: rotate(360deg);
+    }
+}

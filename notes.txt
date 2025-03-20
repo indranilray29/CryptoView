@@ -1,0 +1,1 @@
+there was a long numeric value of price. for adding commas, for better readability , .toLocaleString() is used.
